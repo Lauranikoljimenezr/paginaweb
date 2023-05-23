@@ -1,0 +1,206 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #FFF url("../images/fondo.jpg");
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 25px;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(233, 199, 199)), color-stop(50%, rgba(241, 148, 167, 0.761)), color-stop(90%, rgb(255, 255, 255)));
+    }
+    
+    main {
+        box-shadow: 0 0 10px #d1adf0;
+        border-radius: 30px;
+        width: 1100px;
+        margin: 40px auto;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    header {
+        text-align: center;
+    }
+    
+    header img {
+        float: left;
+        margin-left: 100px;
+        border-radius: 20px;
+    }
+    
+    header h1 {
+        font-size: 35px;
+        padding: 10px 0;
+        text-align: center;
+        float: left;
+        margin: 45px 0 0 100px;
+    }
+    
+    nav {
+        margin: 20px;
+    }
+    
+    ul li {
+        display: inline;
+        padding: 0 10px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        background-color: #000;
+        color: #FFF;
+        padding: 6px 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px #292929;
+    }
+    
+    ul li a:hover {
+        background-color: #fbaeb9;
+    }
+    
+    section {
+        background-size: contain;
+        border: 4px double #070000;
+        border-radius: 50px;
+        padding: 20px 20px 250px;
+        margin-bottom: 10px;
+    }
+    
+    .index {
+        padding: 20px 20px 50px;
+    }
+    
+    p {
+        color: #000;
+        padding: 10px 0;
+    }
+    
+    b {
+        color: #ff98ccef;
+    }
+    
+    article {
+        text-align: center;
+        float: left;
+    }
+    
+    article img {
+        width: 400px;
+        border-radius: 20px;
+    }
+    
+    aside {
+        text-align: center;
+        margin-top: 180px;
+    }
+    
+    aside a {
+        color: #FFF;
+        background: #f5b6b6f7;
+        border-radius: 10px;
+        padding: 5px 10px;
+        line-height: 40px;
+        text-decoration: none;
+    }
+    
+    aside a:hover {
+        background: #FFF;
+        color: #000000;
+    }
+    
+    footer p {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #parrsabi {
+        border: 1px solid #050001;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: #ffeff1;
+        color: #000000;
+        float: right;
+        width: 55%;
+        margin: 100px 0 0 0;
+    }
+    
+    #textFooter {
+        font-size: 10px;
+    }
+    
+    .colorFuente {
+        color: rgb(0, 0, 0);
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    h3 {
+        border-radius: 10px;
+        padding: 10px;
+        color: #000000;
+        float: right;
+        width: 50%;
+        margin: 5px 5px 5px 5px;
+    }
+    
+    .slider-container {
+        display: flex;
+        width: 80%;
+        height: 50vh;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .slider-container img {
+        flex: 0 0 80%;
+        width: 80%;
+        object-fit: cover;
+        scroll-snap-align: center;
+    }
+    
+    .italic {
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .oblique {
+        font-style: oblique;
+    }
+    
+     :root,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    div.bola {
+        left: 40%;
+        top: 37%;
+        height: 30%;
+        width: 20%;
+        background-image: url(https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1968,w_3500,x_0,y_0/dpr_1.5/c_limit,w_608/fl_lossy,q_auto/v1681291331/2019-05-01T224418Z_1641048479_HP1EF511R5UCY_RTRMADP_3_AWARDS-BILLBOARDS_buuzyq);
+        background-size: cover;
+        background-repeat: repeat;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: -.75em -.25em 0 0 rgba(0, 0, 0, .1) inset, .2em .1em 0 0 rgba(255, 255, 255, .2) inset;
+        animation: bolas 40s infinite linear;
+    }
+    
+    @keyframes bolas {
+        from {
+            background-position: center;
+        }
+        to {
+            background-position: 600px center;
+        }
+    }
